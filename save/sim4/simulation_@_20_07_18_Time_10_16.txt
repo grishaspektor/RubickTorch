@@ -1,0 +1,23 @@
+-----GLOBAL PARAMETERS-----
+MEM_SIZE        =1
+BATCH_SIZE      =128
+GAMMA           =0.999
+EPS_START       =0.9
+EPS_END         =0.05
+EPS_DECAY       =200
+TARGET_UPDATE   =10
+TEST_RATE       =1000
+ADDED_ROT_TRIALS_TEST=10
+ADDED_ROT_TRIALS_REGULAR=2
+MAX_ROTS        =6
+
+-----Sim PARAMETERS-----
+learning_rate=0.0001
+curr_thresh=0.8
+num_episodes=1000000
+do_save=1
+do_regular=1
+do_reverse=1
+do_reverse_TD=1
+use_sparse=1
+do_rand_roll=0
